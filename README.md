@@ -3,28 +3,38 @@ Mekako is a Discord bot is designed to assist with advanced statistical analysis
 
 ## Features
 
-- **Comprehensive Statistical Functions**: Includes z-tests, t-tests, ANOVA, chi-square tests, correlation analysis, regression, and probability distributions (normal, binomial, Poisson).
-- **Visual Data Representation**: Generates informative, aesthetically pleasing plots for each statistical operation, inspired by the 3Blue1Brown style.
-- **Educational Value**: Combines statistical accuracy with entertaining responses, making learning statistics more engaging.
-- **Easy-to-Use Commands**: Simple command structure for performing various statistical analyses.
+- **Comprehensive Statistical Functions**: Includes z-tests, t-tests, ANOVA, chi-square tests, correlation analyses, regression, and more.
+- **Probability Distributions**: Supports normal, exponential, gamma, beta, uniform, t, F, and chi-squared distributions.
+- **Combinatorics**: Calculates factorials, combinations, and permutations.
+- **Data Visualization**: Generates beautiful, 3Blue1Brown-inspired plots for various statistical analyses.
+- **LaTeX Rendering**: Renders LaTeX equations for mathematical expressions.
+- **Simulations**: Includes coin flip and dice roll simulations.
+- **Unique Personality**: Responds with a tsundere attitude, making interactions both informative and entertaining.
 
 ## Commands
 
-Here are some of the available commands:
+Here's a list of some key commands:
 
-- `!hello`: Greet Mekako
-- `!ztest [sample_mean] [population_mean] [population_std] [sample_size]`: Perform a z-test
-- `!ttest [sample_mean] [population_mean] [sample_std] [sample_size]`: Perform a t-test
-- `!anova [group1: x1,x2,...] [group2: y1,y2,...]`: Perform one-way ANOVA
-- `!correlation [x1,x2,...] [y1,y2,...]`: Calculate Pearson correlation
-- `!regression [x1,x2,...] [y1,y2,...]`: Perform simple linear regression
-- `!normal [x] [mean] [std]`: Calculate normal distribution probability
-- `!binomial [n] [k] [p]`: Calculate binomial probability
-- `!poisson [k] [lambda]`: Calculate Poisson probability
-
-For a full list of commands, use `!help` in Discord.
+- `!ztest`: Perform a z-test
+- `!ttest`: Perform a t-test
+- `!anova`: Perform one-way ANOVA
+- `!chisquare`: Perform chi-square goodness of fit test
+- `!correlation`: Calculate Pearson correlation
+- `!regression`: Perform simple linear regression
+- `!normal`: Calculate normal distribution probability density
+- `!binomial`: Calculate binomial probability
+- `!poisson`: Calculate Poisson probability
+- `!factorial`: Calculate factorial
+- `!combination`: Calculate combinations
+- `!histogram`: Create a histogram
+- `!boxplot`: Create a box plot
+- `!latex`: Render a LaTeX equation
 
 ## Acknowledgments
 
-- Inspired by the character Maho Hiyajo from Steins;Gate
-- Visualization style inspired by 3Blue1Brown
+- Inspired by Maho Hiyajo from Steins;Gate
+- Plotting style inspired by 3Blue1Brown
+
+## Disclaimer
+
+This bot has a tsundere personality and may occasionally respond with snarky or dismissive comments. It's all in good fun and not meant to offend. Use at your own risk!
