@@ -30,28 +30,6 @@ Here's a list of some key commands:
 - `!boxplot`: Create a box plot
 - `!latex`: Render a LaTeX equation
 
-## Setup
-
-1. Clone this repository:
-   ```
-   git clone https://github.com/S-entinel/mekako-bot.git
-   ```
-
-2. Install the required packages:
-   ```
-   pip install -r requirements.txt
-   ```
-
-3. Create a `.env` file in the root directory and add your Discord bot token:
-   ```
-   DISCORD_TOKEN=your_token_here
-   ```
-
-4. Run the bot:
-   ```
-   python main.py
-   ```
-
 ## Dependencies
 
 - discord.py
